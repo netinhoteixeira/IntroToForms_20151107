@@ -1,2 +1,2 @@
-# XamarinFormsNodeJs
-Projeto Client Side referente a http://studyxnet.com.br/tutoriais/review-xamarin-forms-e-nodejs-web-api/
+# Intro To Forms
+Projeto criado no meet up do dia 07 de novembro de 2015
