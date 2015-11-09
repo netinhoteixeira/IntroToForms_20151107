@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Login" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FirstAppMeetup.LoginPage">
+	<ContentPage.Content>
+		<StackLayout VerticalOptions="Center">
+		<Entry Placeholder="Login" />
+		<Entry Placeholder="Senha" IsPassword="true" />
+		<Button Clicked="Login_Clicked" Text="Login" BackgroundColor="Purple" TextColor="White" BorderColor="Green" BorderWidth="4" />
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>

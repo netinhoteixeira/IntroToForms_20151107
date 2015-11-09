@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage Title="Seus Amigos" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FirstAppMeetup.ListaAmigos">
+	<ContentPage.Content>
+		<StackLayout>
+			<SearchBar TextChanged="Search_TextChanged" />
+			<ActivityIndicator IsRunning="false" x:Name="aiLoad" />
+			<Picker x:Name="myPicker" />
+			<ListView x:Name="lista">
+				<ListView.ItemTemplate>
+					<DataTemplate>
+						<TextCell Text="{Binding Nome}" Detail="{Binding Numero}" />
+					</DataTemplate>
+				</ListView.ItemTemplate>
+			</ListView>
+		</StackLayout>
+	</ContentPage.Content>
+</ContentPage>
